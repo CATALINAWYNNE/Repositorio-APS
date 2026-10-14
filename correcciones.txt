@@ -1,0 +1,10 @@
+* Correcciones de las TSs
+    * TS4: Estimadores
+        * Los primeros dos gráficos no aportan mucho al trabajo, los plots no tienen las etiquetas 
+          correspondientes y en el caso del primer subplot (señal original con ruido), no se puede apreciar nada 
+          relevante. 
+        * Me parece bien que hayas separado los histogramas para mostrar mejor cómo es la varianza en la 
+          estimación de ambos parámetros de la señal sinusoidal.
+        * En la conclusión decís: ¨…al aumentar el SNR disminuye tanto el sesgo como la varianza de los 
+          estimadores obteniéndose estimaciones más precisas y estables.¨. Esto no es del todo correcto, la 
+          varianza es prácticamente la misma. 
