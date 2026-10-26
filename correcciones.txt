@@ -1,4 +1,5 @@
 * Correcciones de las TSs
+
     * TS4: Estimadores
         * Los primeros dos gráficos no aportan mucho al trabajo, los plots no tienen las etiquetas 
           correspondientes y en el caso del primer subplot (señal original con ruido), no se puede apreciar nada 
@@ -8,3 +9,17 @@
         * En la conclusión decís: ¨…al aumentar el SNR disminuye tanto el sesgo como la varianza de los 
           estimadores obteniéndose estimaciones más precisas y estables.¨. Esto no es del todo correcto, la 
           varianza es prácticamente la misma. 
+
+  * TS5: Estimación Espectral
+      * Pasar por un corrector el texto que hay algunos errores menores.
+      * Falta justificar el uso del método de Welch frente a los otros dos métodos que se proponen en la consigna.
+      * En los gráficos de las señales en el dominio del tiempo el eje vertical tiene una etiqueta que no es del 
+        todo correcta. Amplitud en todo caso son los valores extremos de la señal, con poner x(t) estaba bien.
+      * En los mismos gráficos el eje horizontal está en función de las muestras, dado que el espectro lo 
+        expresaste en función de la frecuencia en Hz, en el dominio del tiempo debería estar en segundos.
+      * Hubiese estado bueno que pruebes distintos valores en los parámetros del Welch para ver cómo cambia la 
+        estimación mostrando el efecto en la varianza de la misma.
+      * En la conclusión decís: "El método de Welch resultó adecuado para obtener estimaciones suaves de la PSD 
+        reduciendo la variabilidad espectral respecto al periodograma clásico." pero no experimentaste nada usando
+        el periodograma. Era mejor referirse a si fue útil o no para calcular el ancho de banda que era el objetivo
+        del trabajo.
