@@ -23,3 +23,8 @@
         reduciendo la variabilidad espectral respecto al periodograma clásico." pero no experimentaste nada usando
         el periodograma. Era mejor referirse a si fue útil o no para calcular el ancho de banda que era el objetivo
         del trabajo.
+
+  * TS5: Estimación Espectral
+      * Buen trabajo.
+      * En el gráfico de la respuesta de módulo del segundo filtro hay un error. La respuesta asintótica parece no 
+        coincidir.
